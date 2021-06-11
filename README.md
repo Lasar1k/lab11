@@ -86,7 +86,16 @@ $ open https://ngrok.com/signup
 $ export NGROK_TOKEN=<токен>
 $ ngrok authtoken ${NGROK_TOKEN}
 $ ngrok tcp 22
-<порт_ngrok_сервера>
+Session Status                online                                                    
+Account                       Rogopl (Plan: Free)                                       
+Version                       2.3.40                                                    
+Region                        United States (us)                                        
+Web Interface                 http://127.0.0.1:4040                                     
+Forwarding                    tcp://8.tcp.ngrok.io:19421 -> localhost:22                
+                                                                                        
+Connections                   ttl     opn     rt1     rt5     p50     p90               
+                              0       0       0.00    0.00    0.00    0.00              
+                                                                                 
 ```
 Подключемся к созданной групповой сессии. Используем вертикальное разделение консольного окна
 ```sh
